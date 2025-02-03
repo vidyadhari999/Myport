@@ -1,80 +1,204 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Vidyadhari Chennuri",
+  name: "VIDYADHARI CHENNURI",
   initials: "VC",
-  url: "https://www.framer.com/", // No personal URL provided
+  url: "https://www.google.com/", // Not provided
   location: "Worcester, MA",
   locationLink: "https://www.google.com/maps/place/Worcester,+MA",
   description:
-    "Programmer Analyst Trainee with strong academic credentials and hands-on project experience in computer science.",
-  summary:
-    "A dedicated computer science professional with robust academic training and diverse project experience—from developing web-based systems to employing AI and deep learning techniques. Committed to applying technical and extra skills such as presentation, social media, and management skills to solve real-world problems.",
-  avatarUrl: "/me.png", // Replace with an actual avatar URL if available
+    "Professional Java Full Stack Developer with over 10+ years of specialized experience in developing web-based applications and delivering innovative, customized solutions to meet dynamic industry needs.",
+  summary: `
+**Summary of Experience**
+
+Professional Java Full Stack Developer with over 10+ years of specialized experience in developing web-based applications and delivering innovative, customized solutions to meet dynamic industry needs.
+
+- Extensive hands-on experience with Core Java and JavaEE technologies, including Servlets, JDBC, Multithreading, Hibernate, Spring MVC, and Spring Boot.
+- Proficient in creating user-friendly web interfaces using HTML, CSS, and Angular.
+- Developed dynamic and reusable UI components using Angular leveraging Forms, Events, Router, Animations, and Flux.
+- Designed and implemented microservices using Spring Boot with full CRUD capabilities.
+- Built robust backend layers using Hibernate ORM and JDBC templates.
+- Developed RESTful web services with Spring MVC and integrated SOAP services using JAXB.
+- Utilized Apache Kafka for data streaming and asynchronous communication.
+- Configured AWS cloud infrastructure and optimized CI/CD pipelines with Jenkins and GitHub Actions.
+- Experience with Docker, Kubernetes, OpenShift, and Agile methodologies.
+`,
+  avatarUrl: "/me.png", // Your avatar image in public folder
   skills: [
-    "Python",
-    "SQL",
-    "Tableau",
-    "Microsoft Office Suite",
-    "Presentation skills",
-    "Social media skills",
-    "Management Skills",
-    "Data Engineering",
-    "Software Engineering",
-    "Design & Analysis Algorithms",
-    "Web Technologies",
-    "Database Management",
+    "Core Java",
+    "JavaEE",
+    "Servlets",
+    "JDBC",
+    "Multithreading",
+    "Spring MVC",
+    "Spring Boot",
+    "Struts Framework",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Typescript",
+    "JQuery",
+    "Angular",
+    "Aspect-Oriented Programming (AOP)",
+    "Inversion of Control (IoC)",
+    "Spring Security OAuth 2.0",
+    "Dockerized Spring Boot on AWS",
+    "CI/CD Pipelines",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Elastic Search",
+    "Spring Cloud Config",
+    "Netflix OSS",
+    "Eureka",
+    "Zuul",
+    "Hystrix",
+    "Kafka",
+    "Zookeeper",
+    "Hibernate",
+    "GitHub",
+    "SVN",
+    "JUnit",
+    "Karma",
+    "Jasmine",
+    "Apache Tomcat",
+    "Jetty",
+    "Maven",
+    "JIRA",
+    "SOAP UI",
+    "Docker Hub",
+    "Agile",
+    "Scrum",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/projects", icon: NotebookIcon, label: "Projects" },
   ],
   contact: {
-    email: "vidyadhari1124@gmail.com",
-    tel: "+1 (774) 437-0918",
+    email: "chennurividyadhari@gmail.com",
+    tel: "+1 508-470-7105",
     social: {
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/vidyadharichennuri",
+        url: "https://www.linkedin.com/in/vidyadhari-chennuri",
         icon: Icons.linkedin,
+        navbar: true,
+      },
+      Medium: {
+        name: "Medium",
+        url: "https://medium.com/@chennurividyadhari",
+        icon: Icons.globe, // Fallback icon for Medium
         navbar: true,
       },
     },
   },
   work: [
     {
-      company: "Cognizant Technology Solutions Private Limited",
-      href: "https://www.cognizant.com",
-      location: "Bangalore, India",
-      title: "Programmer Analyst Trainee",
-      logoUrl: "", // Add a logo URL if available
-      start: "August 31, 2021",
-      end: "June 13, 2022",
-      description:
-        "Underwent intensive training in Salesforce while working in both administrative and developer roles to gain hands-on experience with the platform.",
+      company: "JP Morgan and Chase",
+      href: "https://www.jpmorganchase.com",
+      location: "",
+      title: "Java Full Stack Developer",
+      logoUrl: "/jpmorgon.png",
+      start: "May 2023",
+      end: "Present",
+      description: `
+**Responsibilities:**
+- Developed dynamic, single-page web applications using Angular 16 with NgRx and Angular Signals.
+- Designed and implemented Spring Boot microservices for high-volume transaction processing.
+- Built and optimized data streaming pipelines using Kafka.
+- Managed MySQL databases with complex SQL queries, stored procedures, and triggers.
+- Configured AWS infrastructure (EC2, S3, RDS, Route53, IAM) for scalable deployments.
+- Automated build and deployment using GitLab CI/CD and managed version control with GitHub.
+- Enhanced logging and monitoring with Amazon CloudWatch.
+- Migrated legacy systems to the AWS cloud.
+- Collaborated in an Agile environment.
+`
+    },
+    {
+      company: "NNG",
+      href: "",
+      location: "Omaha, NE",
+      title: "Java/J2EE Developer",
+      logoUrl: "/nng.png",
+      start: "Aug 2021",
+      end: "Apr 2023",
+      description: `
+**Responsibilities:**
+- Developed dynamic and reusable UI components using Angular.
+- Built microservices using Spring Boot to provide RESTful services.
+- Developed REST controllers in Spring MVC and integrated EJB 3.0.
+- Utilized Apache Kafka for messaging and data streaming.
+- Managed AWS cloud infrastructure and automated backups.
+- Configured AWS RDS for high availability.
+- Employed Jenkins for continuous integration and Docker for containerization.
+- Participated in Agile methodologies and managed Git repositories.
+`
+    },
+    {
+      company: "Health Mart Systems Inc.",
+      href: "",
+      location: "San Francisco, CA",
+      title: "Java Full Stack Developer",
+      logoUrl: "/healthmart.png",
+      start: "Dec 2019",
+      end: "July 2021",
+      description: `
+**Responsibilities:**
+- Developed dynamic and reusable UI components using Angular and Angular Material.
+- Designed presentation layers using JSP, HTML, CSS, JavaScript, and jQuery.
+- Built backend logic with Spring MVC and implemented RESTful and SOAP web services.
+- Managed DB2 databases with JDBC and Hibernate ORM.
+- Configured AWS infrastructure including EC2, S3, and Elastic Load Balancing.
+- Participated in Agile processes and collaborated during UAT.
+`
+    },
+    {
+      company: "Cipher Health",
+      href: "",
+      location: "NYC, NY",
+      title: "Java Developer",
+      logoUrl: "/cipherhealth.png",
+      start: "Feb 2018",
+      end: "Nov 2019",
+      description: `
+**Responsibilities:**
+- Developed and maintained Servlet components using the Struts Framework.
+- Implemented Action Forms and Controllers following the MVC architecture.
+- Designed applications using Java, J2EE, and Spring MVC.
+- Wrote PL/SQL queries, stored procedures, and triggers.
+- Utilized Hibernate ORM and automated builds with Maven.
+- Performed unit testing with JUnit and participated in Agile processes.
+`
+    },
+    {
+      company: "WalkingTree Technologies",
+      href: "",
+      location: "Hyderabad, IN",
+      title: "Junior Java/J2EE Developer",
+      logoUrl: "/walkingtree.png",
+      start: "Apr 2016",
+      end: "Feb 2018",
+      description: `
+**Responsibilities:**
+- Assisted in developing responsive UIs using Angular and the MVC design pattern.
+- Contributed to backend development using Spring Boot, Spring MVC, and Spring Security.
+- Assisted with database interactions using Hibernate ORM and JDBC templates.
+- Participated in build automation with Maven and version control with SVN.
+- Supported unit and integration testing with JUnit.
+`
     },
   ],
   education: [
     {
       school: "Clark University",
       href: "https://www.clarku.edu",
-      degree:
-        "Master of Science in Computer Science (STEM) – GPA: 3.85",
-      logoUrl: "", // Add a logo URL if available
-      start: "", // Start date not provided
+      degree: "Master of Science in Computer Science (STEM)",
+      logoUrl: "/clark.png",
+      start: "",
       end: "Dec 2024",
     },
-    {
-      school: "ACE Engineering College JNTUH",
-      href: "", // Website not provided
-      degree:
-        "Bachelor of Technology in Computer Science (STEM) – CGPA: 7.68",
-      logoUrl: "", // Add a logo URL if available
-      start: "", // Start date not provided
-      end: "June 2021",
-    },
   ],
+  // Projects section using curated Unsplash URLs for precise images
   projects: [
     {
       title: "Tourism Management System",
@@ -85,7 +209,7 @@ export const DATA = {
         "Worked on ‘Tourism Management System’ using DBMS, web technologies, and software engineering tools. The aim was to partially computerize tourism website operations such as booking tours at affordable prices.",
       technologies: ["DBMS", "Web Technologies", "Software Engineering Tools"],
       links: [],
-      image: "",
+      image: "https://images.unsplash.com/photo-1542317854-f14b996bfdbd?auto=format&fit=crop&w=300&h=200",
       video: "",
     },
     {
@@ -94,10 +218,10 @@ export const DATA = {
       dates: "",
       active: false,
       description:
-        "Developed a Women and Child Safety application during a Hackathon, addressing critical safety concerns.",
+        "Developed a Women and Child Safety application addressing critical safety concerns.",
       technologies: [],
       links: [],
-      image: "",
+      image: "https://images.unsplash.com/photo-1573497491208-6b1acb260507?auto=format&fit=crop&w=300&h=200",
       video: "",
     },
     {
@@ -109,7 +233,7 @@ export const DATA = {
         "Created an Online Examination System using web technologies, enabling any registered student to take exams from anywhere.",
       technologies: ["Web Technologies"],
       links: [],
-      image: "",
+      image: "https://images.unsplash.com/photo-1584697964154-5f66a9f9d39f?auto=format&fit=crop&w=300&h=200",
       video: "",
     },
     {
@@ -121,7 +245,7 @@ export const DATA = {
         "Investigated question pair similarity in discussion forums using AI as part of a mini project.",
       technologies: ["AI"],
       links: [],
-      image: "",
+      image: "https://images.unsplash.com/photo-1573497019413-11b7a8c08a24?auto=format&fit=crop&w=300&h=200",
       video: "",
     },
     {
@@ -133,7 +257,7 @@ export const DATA = {
         "Developed an Image Caption Generator using deep learning techniques as part of a major project.",
       technologies: ["Deep Learning"],
       links: [],
-      image: "",
+      image: "https://images.unsplash.com/photo-1581093588401-8e3dc5cfdc1e?auto=format&fit=crop&w=300&h=200",
       video: "",
     },
     {
@@ -145,7 +269,7 @@ export const DATA = {
         "Built 'Don't Junk-it List-it', an online marketplace platform using a SQL database and React JS as part of academic requirements.",
       technologies: ["SQL", "React JS"],
       links: [],
-      image: "",
+      image: "https://images.unsplash.com/photo-1600180758895-6341a4ff3ffb?auto=format&fit=crop&w=300&h=200",
       video: "",
     },
     {
@@ -157,9 +281,8 @@ export const DATA = {
         "Developed 'Eats Near Your', a restaurant recommendation platform using React JS and Elastic Search Cloud as part of academic requirements.",
       technologies: ["React JS", "Elastic Search Cloud"],
       links: [],
-      image: "",
+      image: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&h=200",
       video: "",
     },
   ],
-  hackathons: [],
 } as const;
