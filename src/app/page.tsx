@@ -18,7 +18,7 @@ export default function Page() {
           {/* Display your image from public/myimage.png in a rounded circle with a nice background */}
           <div className="relative flex items-center justify-center w-32 h-32 bg-blue-100 rounded-full overflow-hidden">
             <Image
-              src="/myimage.png"
+              src="/myimage.jpg"
               alt="My Image"
               width={128}
               height={128}
@@ -113,7 +113,7 @@ export default function Page() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects">
+      {/* <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -146,7 +146,7 @@ export default function Page() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact Section */}
       <section id="contact">
