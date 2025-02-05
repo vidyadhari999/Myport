@@ -70,7 +70,7 @@ I’m honing Java Full Stack Developer skills, covering web-based app developmen
     social: {
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/vidyadhari-chennuri",
+        url: "https://www.linkedin.com/in/vidyadhari-chennuri-6b8974328",
         icon: Icons.linkedin,
         navbar: true,
       },
@@ -92,7 +92,6 @@ I’m honing Java Full Stack Developer skills, covering web-based app developmen
       start: "May 2023",
       end: "Present",
       description: `
-**Responsibilities:**
 - Developed dynamic, single-page web applications using Angular 16 with NgRx and Angular Signals.
 - Designed and implemented Spring Boot microservices for high-volume transaction processing.
 - Built and optimized data streaming pipelines using Kafka.
@@ -113,7 +112,6 @@ I’m honing Java Full Stack Developer skills, covering web-based app developmen
       start: "Aug 2021",
       end: "Apr 2023",
       description: `
-**Responsibilities:**
 - Developed dynamic and reusable UI components using Angular.
 - Built microservices using Spring Boot to provide RESTful services.
 - Developed REST controllers in Spring MVC and integrated EJB 3.0.
@@ -133,7 +131,6 @@ I’m honing Java Full Stack Developer skills, covering web-based app developmen
       start: "Dec 2019",
       end: "July 2021",
       description: `
-**Responsibilities:**
 - Developed dynamic and reusable UI components using Angular and Angular Material.
 - Designed presentation layers using JSP, HTML, CSS, JavaScript, and jQuery.
 - Built backend logic with Spring MVC and implemented RESTful and SOAP web services.
@@ -151,7 +148,6 @@ I’m honing Java Full Stack Developer skills, covering web-based app developmen
       start: "Feb 2018",
       end: "Nov 2019",
       description: `
-**Responsibilities:**
 - Developed and maintained Servlet components using the Struts Framework.
 - Implemented Action Forms and Controllers following the MVC architecture.
 - Designed applications using Java, J2EE, and Spring MVC.
@@ -169,7 +165,6 @@ I’m honing Java Full Stack Developer skills, covering web-based app developmen
       start: "Apr 2016",
       end: "Feb 2018",
       description: `
-**Responsibilities:**
 - Assisted in developing responsive UIs using Angular and the MVC design pattern.
 - Contributed to backend development using Spring Boot, Spring MVC, and Spring Security.
 - Assisted with database interactions using Hibernate ORM and JDBC templates.
