@@ -8,21 +8,11 @@ export const DATA = {
   location: "Worcester, MA",
   locationLink: "https://www.google.com/maps/place/Worcester,+MA",
   description:
-    "Professional Java Full Stack Developer with over 10+ years of specialized experience in developing web-based applications and delivering innovative, customized solutions to meet dynamic industry needs.",
+    "Professional Java Full Stack Developer with over 8 years of specialized experience in developing web-based applications and delivering innovative, customized solutions to meet dynamic industry needs.",
   summary: `
 **Summary of Experience**
 
-Professional Java Full Stack Developer with over 10+ years of specialized experience in developing web-based applications and delivering innovative, customized solutions to meet dynamic industry needs.
-
-- Extensive hands-on experience with Core Java and JavaEE technologies, including Servlets, JDBC, Multithreading, Hibernate, Spring MVC, and Spring Boot.
-- Proficient in creating user-friendly web interfaces using HTML, CSS, and Angular.
-- Developed dynamic and reusable UI components using Angular leveraging Forms, Events, Router, Animations, and Flux.
-- Designed and implemented microservices using Spring Boot with full CRUD capabilities.
-- Built robust backend layers using Hibernate ORM and JDBC templates.
-- Developed RESTful web services with Spring MVC and integrated SOAP services using JAXB.
-- Utilized Apache Kafka for data streaming and asynchronous communication.
-- Configured AWS cloud infrastructure and optimized CI/CD pipelines with Jenkins and GitHub Actions.
-- Experience with Docker, Kubernetes, OpenShift, and Agile methodologies.
+I’m honing Java Full Stack Developer skills, covering web-based app development and microservices. Working with Core Java, JavaEE, Angular, Hibernate, and Spring Boot, I’m managing data streaming and UI components effectively.
 `,
   avatarUrl: "/me.png", // Your avatar image in public folder
   skills: [
